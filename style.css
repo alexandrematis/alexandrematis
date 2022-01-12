@@ -134,6 +134,7 @@ main {
 
 #home .image {
     position: relative;
+    left: 3rem;
 }
 
 #home .image::before {
