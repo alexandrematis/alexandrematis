@@ -52,7 +52,6 @@ pessoa.falar()
 
 /******** CÓDIGO ********/
 
-
 //abre e fecha o menu quando clicar no icone: hamburguer e x
 const nav = document.querySelector('#header nav')
 const toggle = document.querySelectorAll('nav .toggle')
@@ -71,3 +70,49 @@ for (const link of links) {
         nav.classList.remove('show')
     })
 }
+
+/*mudar o header da página quando der scroll*/
+
+const header = document.querySelector('#header')
+const navHeight = header.offsetHeight
+
+window.addEventListener('scroll', function () {
+    if (window.scrollY >= navHeight) {
+        // maior que a altura do header
+        header.classList.add('scroll')
+    } else {
+        // menor que a altura do header
+        header.classList.remove('scroll')
+    }
+})
+
+/*TESTIMONIALS SWIPER*/
+
+const swiper = new Swiper('.swiper', {
+    slidesPerView: 1,
+    pagination: {
+        el: '.swiper-pagination'
+    },
+    mousewheel: true,
+    keyboard: true
+})
+
+/*Scroll Reveal*/
+
+const scrollReveal = ScrollReveal({
+    origin: 'top',
+    distance: '30px',
+    duration: 700,
+    reset: true
+})
+
+scrollReveal.reveal(`
+#home .image, #home .text
+#about .image, #about .text,
+#services heaqder, #services .card,
+#testimonials header #testimonials .testimonials,
+#contact .text, #contact .links
+`, { interval: 100 })
+
+/* Botão para voltar ao topo */
+const backToTopButton = document.querySelector('#back-to-top')
