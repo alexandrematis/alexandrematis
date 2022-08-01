@@ -21,4 +21,4 @@ Estudando com o programa Ignite da [Rocketseat](https://github.com/Rocketseat)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-05122A?style=flat&logo=postgresql)&nbsp;
 ![SQLite](https://img.shields.io/badge/-SQLite-05122A?style=flat&logo=sqlite)&nbsp;
 ![SQL](https://img.shields.io/badge/-SQL-05122A?style=flat&logo=sql)&nbsp;
-![MongoDb](https://img.shields.io/badge/-SQL-05122A?style=flat&logo=mongodb)&nbsp;
+![MongoDb](https://img.shields.io/badge/-MongoDb-05122A?style=flat&logo=mongodb)&nbsp;
