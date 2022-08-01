@@ -1,19 +1,18 @@
-# Olá Mundo
+<h1 align="center">Olá Mundo!</h1>
+<h2 align="center">Alexandre Matis aqui! 👋</h1>
 
-## Alexandre Matis aqui! 👋
+### Bem vindo ao meu portifólio no github
 
+Aqui se encontram repositórios de projetos dos meus estudos de Desenvolvimento Web.
 
-<!--
-**alexandrematis/AlexandreMatis** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Tecnologias
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- Node.js
+- React.js
+- Javascript
+- HMTL
+- CSS
+- MongoDb
+- SQL
+- Socket.io
+- git
