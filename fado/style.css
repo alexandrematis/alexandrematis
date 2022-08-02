@@ -14,7 +14,7 @@ a {
 }
 
 img {
-    width: 100%;
+    width: 90%;
     height: auto;
 }
 
@@ -466,7 +466,7 @@ footer .logo {
 }
 
 footer .brand p {
-    color: var(--text-color-light)
+    color: var(--text-color-light);
     margin-bottom: 0.75rem;
 }
 
