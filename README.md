@@ -1,5 +1,5 @@
 <h1 align="center">Olá Mundo!</h1>
-<h2 align="center">Alexandre Matis aqui! 👋</h1>
+<h2 align="center">Alexandre Matis aqui! 👋</h2>
 
 ### Bem vindo ao meu portifólio no github
 
