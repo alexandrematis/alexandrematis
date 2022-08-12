@@ -1,9 +1,9 @@
 * {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier Prime', monospace;
     padding: 0;
     margin: 0;
-    background-color: black ;
-    color: white;
+    background-color: #343434 ;
+    color: #9f9f9f;
 }
 
 .container {
