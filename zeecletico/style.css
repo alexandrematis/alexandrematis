@@ -95,9 +95,7 @@ body {
 
 /*====  LAYOUT ============================ */
 .container {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-}
+max-width: 80vw;}
 
 .grid {
   display: grid;
@@ -105,7 +103,10 @@ body {
 }
 
 .section {
-  padding: calc(5rem + var(--header-height)) 0;
+  padding: calc(4rem + var(--header-height)) 0;
+  max-width: 80vw;
+  margin: 0 auto;
+
 }
 
 .section .title {
@@ -317,6 +318,25 @@ nav.show div.icon-close {
 #about .image {
   position: relative;
 }
+
+
+.video { 
+  position: relative; 
+  padding-bottom: 56.25%; 
+  height: 0; 
+  overflow: hidden; 
+  max-width: 100%; 
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 30px; 
+ } 
+ .video iframe {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+ }
 
 #about .image::before {
   content: '';
